@@ -1,0 +1,198 @@
+import { expect, test, describe } from "bun:test";
+import { fetchWiki } from "../src/fetchWiki";
+import { parseSong } from "../src/parseSong";
+
+describe("parseSong", () => {
+  test("After Rain", async () => {
+    const songHtml = await fetchWiki("After Rain");
+    const result = parseSong(songHtml);
+
+    expect(result).toEqual({
+      id: "after-rain",
+      imageUrl:
+        "/images/thumb/0/0c/Songs_after-rain.png/256px-Songs_after-rain.png",
+      artist: "HyuN & MIIM",
+      releaseVersion: "1.0.3",
+      chapter: "基础歌曲",
+      title_localized: {
+        default: "After Rain",
+      },
+      source_localized: {
+        default: "Rotaeno Sound Collection",
+      },
+      charts: [
+        {
+          difficultyLevel: "I",
+          difficultyDecimal: 2,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "II",
+          difficultyDecimal: 4,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "III",
+          difficultyDecimal: 8.2,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "IV",
+          difficultyDecimal: 10.8,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+      ],
+    });
+  });
+
+  test("심장병", async () => {
+    const songHtml = await fetchWiki("심장병");
+    const result = parseSong(songHtml);
+
+    expect(result).toEqual({
+      id: "xinzang-bing",
+      imageUrl:
+        "/images/thumb/b/b1/Songs_xinzang-bing.png/256px-Songs_xinzang-bing.png",
+      artist: "HyuN feat. HUBOG",
+      releaseVersion: "1.0.3",
+      chapter: "基础歌曲",
+      title_localized: {
+        default: "심장병",
+        en: "simjangbyeong",
+        "zh-Hans": "心脏病",
+        "zh-Hant": "心臟病",
+      },
+      source_localized: {
+        default: "Rotaeno Sound Collection",
+      },
+      charts: [
+        {
+          difficultyLevel: "I",
+          difficultyDecimal: 1,
+          chartDesigner: "TangScend",
+          jacketDesigner: "Juice Black",
+        },
+        {
+          difficultyLevel: "II",
+          difficultyDecimal: 3,
+          chartDesigner: "TangScend",
+          jacketDesigner: "Juice Black",
+        },
+        {
+          difficultyLevel: "III",
+          difficultyDecimal: 8.2,
+          chartDesigner: "TangScend",
+          jacketDesigner: "Juice Black",
+        },
+        {
+          difficultyLevel: "IV",
+          difficultyDecimal: 9.5,
+          chartDesigner: "TangScend",
+          jacketDesigner: "Juice Black",
+        },
+      ],
+    });
+  });
+
+  test("アイロニ", async () => {
+    const songHtml = await fetchWiki("アイロニ");
+    const result = parseSong(songHtml);
+
+    expect(result).toEqual({
+      id: "irony",
+      imageUrl: "/images/thumb/4/4e/Songs_irony.png/256px-Songs_irony.png",
+      artist: "すこっぷ",
+      releaseVersion: "1.9.0",
+      chapter: "自未来的歌",
+      title_localized: {
+        default: "アイロニ",
+        en: "Irony",
+      },
+      source_localized: {
+        default: "Original",
+      },
+      charts: [
+        {
+          difficultyLevel: "I",
+          difficultyDecimal: 3,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "II",
+          difficultyDecimal: 5,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "III",
+          difficultyDecimal: 7,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "IV",
+          difficultyDecimal: 11.6,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+      ],
+    });
+  });
+
+  test("Heaven's Cage", async () => {
+    const songHtml = await fetchWiki("Heaven's Cage");
+    const result = parseSong(songHtml);
+
+    expect(result).toEqual({
+      id: "heavens-cage",
+      imageUrl:
+        "/images/thumb/5/55/Songs_heavens-cage.png/256px-Songs_heavens-cage.png",
+      artist: "ETIA.",
+      releaseVersion: "2.0.0",
+      chapter: "第三章 - 泾渭分明之地",
+      title_localized: {
+        default: "Heaven's Cage",
+      },
+      source_localized: {
+        default: "Rotaeno Sound Collection",
+      },
+      charts: [
+        {
+          difficultyLevel: "I",
+          difficultyDecimal: 3,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "II",
+          difficultyDecimal: 7,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "III",
+          difficultyDecimal: 10.4,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "IV",
+          difficultyDecimal: 13.1,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "IV-α",
+          difficultyDecimal: 13.9,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+      ],
+    });
+  });
+});
