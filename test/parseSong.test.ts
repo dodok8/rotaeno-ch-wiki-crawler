@@ -62,9 +62,6 @@ describe("parseSong", () => {
       chapter: "基础歌曲",
       title_localized: {
         default: "심장병",
-        en: "simjangbyeong",
-        "zh-Hans": "心脏病",
-        "zh-Hant": "心臟病",
       },
       source_localized: {
         default: "Rotaeno Sound Collection",
@@ -110,7 +107,6 @@ describe("parseSong", () => {
       chapter: "自未来的歌",
       title_localized: {
         default: "アイロニ",
-        en: "Irony",
       },
       source_localized: {
         default: "Original",
