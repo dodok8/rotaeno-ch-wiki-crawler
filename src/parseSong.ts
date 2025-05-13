@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import type { Song } from "./@types";
+import { validateLocaleAndSetLanguage } from "typescript";
 
 export function parseSong(html: string): Song {
   const $ = cheerio.load(html);
@@ -17,7 +18,21 @@ export function parseSong(html: string): Song {
     .next()
     .text()
     .replace("v", "");
-  const source_localized = $('td:contains("来源")').next().text();
+  const source_localized = $('td:contains("来源")').next().text() || "Original";
+
+  const constTable = $("h3:contains('曲目定数')").next();
+  const constValues: number[] = [];
+  constTable
+    .find("tr")
+    .eq(1)
+    .find("td")
+    .each((i, td) => {
+      const val = parseFloat($(td).text().trim());
+      if (!isNaN(val)) {
+        constValues.push(val);
+      }
+    });
+  const constLabels = ["I", "II", "III", "IV", "IV-α"];
 
   return {
     artist: composer,
@@ -28,7 +43,12 @@ export function parseSong(html: string): Song {
     imageUrl,
     releaseVersion,
     chapter,
-    charts: [],
+    charts: constValues.map((val, idx) => ({
+      difficultyDecimal: val,
+      difficultyLevel: constLabels[idx] || "",
+      chartDesigner: "",
+      jacketDesigner: "",
+    })),
     source_localized: {
       default: source_localized,
     },
