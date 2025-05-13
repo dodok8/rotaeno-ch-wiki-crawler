@@ -35,22 +35,22 @@ export function parseSong(html: string): Song {
   const constLabels = ["I", "II", "III", "IV", "IV-α"];
 
   return {
+    id,
+    imageUrl,
     artist: composer,
+    releaseVersion,
+    chapter,
     title_localized: {
       default: title,
     },
-    id,
-    imageUrl,
-    releaseVersion,
-    chapter,
+    source_localized: {
+      default: source_localized,
+    },
     charts: constValues.map((val, idx) => ({
       difficultyDecimal: val,
       difficultyLevel: constLabels[idx] || "",
       chartDesigner: "",
       jacketDesigner: "",
     })),
-    source_localized: {
-      default: source_localized,
-    },
   };
 }
