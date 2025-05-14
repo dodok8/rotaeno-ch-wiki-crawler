@@ -191,4 +191,53 @@ describe("parseSong", () => {
       ],
     });
   });
+  test("Inverted World", async () => {
+    const songHtml = await fetchWiki("Inverted World");
+    const result = parseSong(songHtml);
+
+    expect(result).toEqual({
+      id: "inverted-world",
+      imageUrl:
+        "/images/thumb/c/c7/Songs_inverted-world.png/256px-Songs_inverted-world.png",
+      artist: "ARForest",
+      releaseVersion: "1.0.3",
+      chapter: "第一章 - 旅程的开始",
+      title_localized: {
+        default: "Inverted World",
+      },
+      source_localized: {
+        default: "Rotaeno Sound Collection",
+      },
+      charts: [
+        {
+          difficultyLevel: "I",
+          difficultyDecimal: 4,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "II",
+          difficultyDecimal: 8.1,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "III",
+          difficultyDecimal: 11.4,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "IV",
+          difficultyDecimal: 13.6,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+      ],
+    });
+  });
 });
+
+// Inverted World 추가할것, 이거 차트가 전혀 파싱이 안 됨.
+// IN
+//
