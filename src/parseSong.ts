@@ -20,18 +20,17 @@ export function parseSong(html: string): Song {
     .replace("v", "");
   const source_localized = $('td:contains("来源")').next().text() || "Original";
 
-  const constTable = $("h3:contains('曲目定数')").next();
+
   const constValues: number[] = [];
-  constTable
-    .find("tr")
-    .eq(1)
-    .find("td")
-    .each((i, td) => {
-      const val = parseFloat($(td).text().trim());
-      if (!isNaN(val)) {
-        constValues.push(val);
-      }
-    });
+  const constTable = $("th:contains('难度I')").parent().next();
+
+  constTable.find("td").each((_idx, td) => {
+    const val = parseFloat($(td).text().trim());
+    if (!isNaN(val)) {
+      constValues.push(val);
+    }
+  });
+
   const constLabels = ["I", "II", "III", "IV", "IV-α"];
 
   return {
