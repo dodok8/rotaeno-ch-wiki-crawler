@@ -28,5 +28,4 @@ const sortedSongs = allSongs.sort((a, b) => {
 await write("data/songs_after_rain.json", JSON.stringify(sortedSongs, null, 2));
 console.log("All songs data has been saved to songs.json");
 
-sortedSongs.map(async (song) => await downloadAvif(song));
-console.log("All Image downloaded");
+
