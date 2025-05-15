@@ -1,3 +1,4 @@
+import { downloadAvif } from "./src/downloadAvif";
 import { fetchWiki } from "./src/fetchWiki";
 import { parseSongList } from "./src/pareSongList";
 import { parseSong } from "./src/parseSong";
@@ -7,6 +8,8 @@ import * as semver from "semver";
 
 const songListHtml = await fetchWiki("曲目列表");
 const songList = parseSongList(songListHtml);
+// const songList = ["After Rain"];
+
 console.log(songList.length);
 
 const allSongs = [];
@@ -22,5 +25,8 @@ const sortedSongs = allSongs.sort((a, b) => {
   return semver.compare(a.releaseVersion, b.releaseVersion);
 });
 
-await write("data/songs.json", JSON.stringify(sortedSongs, null, 2));
+await write("data/songs_after_rain.json", JSON.stringify(sortedSongs, null, 2));
 console.log("All songs data has been saved to songs.json");
+
+sortedSongs.map(async (song) => await downloadAvif(song));
+console.log("All Image downloaded");
