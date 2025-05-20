@@ -19,9 +19,12 @@ export async function downloadAvif(song: Song) {
   }
 
   const baseUrl = "https://wiki.rotaeno.cn";
-  const response = await ky.get(`${baseUrl}${song.imageUrl}`, {
-    timeout: false,
-  });
+  const response = await ky.get(
+    `${baseUrl}${song.imageUrl}`.replace("256", "512"),
+    {
+      timeout: false,
+    }
+  );
 
   const imageBuffer = await response.arrayBuffer();
   await sharp(imageBuffer).avif({ quality: 100 }).toFile(filePath);
