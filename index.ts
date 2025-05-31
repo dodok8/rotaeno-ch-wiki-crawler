@@ -25,7 +25,5 @@ const sortedSongs = allSongs.sort((a, b) => {
   return semver.compare(a.releaseVersion, b.releaseVersion);
 });
 
-await write("data/songs_after_rain.json", JSON.stringify(sortedSongs, null, 2));
+await write("data/songs_after.json", JSON.stringify(sortedSongs, null, 2));
 console.log("All songs data has been saved to songs.json");
-
-
