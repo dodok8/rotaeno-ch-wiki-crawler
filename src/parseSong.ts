@@ -20,11 +20,10 @@ export function parseSong(html: string): Song {
     .replace("v", "");
   const source_localized = $('td:contains("来源")').next().text() || "Original";
 
-
   const constValues: number[] = [];
-  const constTable = $("th:contains('难度I')").parent().next();
+  const constRow = $("th:contains('曲目定数')").parent().next();
 
-  constTable.find("td").each((_idx, td) => {
+  constRow.find("td").each((_idx, td) => {
     const val = parseFloat($(td).text().trim());
     if (!isNaN(val)) {
       constValues.push(val);
