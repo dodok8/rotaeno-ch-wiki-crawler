@@ -236,8 +236,49 @@ describe("parseSong", () => {
       ],
     });
   });
-});
+  test("Moonlight Fragrance", async () => {
+    const songHtml = await fetchWiki("Moonlight Fragrance");
+    const result = parseSong(songHtml);
 
-// Inverted World 추가할것, 이거 차트가 전혀 파싱이 안 됨.
-// IN
-//
+    expect(result).toEqual({
+      id: "moonlight-fragrance",
+      imageUrl:
+        "/images/thumb/c/c8/Songs_moonlight-fragrance.png/256px-Songs_moonlight-fragrance.png",
+      artist: "HΔG",
+      releaseVersion: "2.11.0",
+      chapter: "基础歌曲",
+      title_localized: {
+        default: "Moonlight Fragrance",
+      },
+      source_localized: {
+        default: "©2025 Rayark Inc. DEEMO Ⅱ®",
+      },
+      charts: [
+        {
+          difficultyLevel: "I",
+          difficultyDecimal: 2.0,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "II",
+          difficultyDecimal: 4.0,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "III",
+          difficultyDecimal: 7.0,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+        {
+          difficultyLevel: "IV",
+          difficultyDecimal: 11.7,
+          chartDesigner: "",
+          jacketDesigner: "",
+        },
+      ],
+    });
+  });
+});
