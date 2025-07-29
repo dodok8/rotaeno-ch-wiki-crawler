@@ -6,5 +6,5 @@ const songs = songsData as Song[];
 
 songs.map(async (song) => {
   await downloadAvif(song);
-  console.log(`Downloaded and converted image for ${song.id}`);
+  // console.log(`Downloaded and converted image for ${song.id}`);
 });

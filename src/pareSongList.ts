@@ -8,46 +8,36 @@ import * as cheerio from "cheerio";
 export function parseSongList(html: string): string[] {
   const $ = cheerio.load(html);
 
-  // Try first with exact class attribute match
-  let tables = $('table[class="sortable rotable"]');
-
-  // If no tables found, try with individual class selectors
-  if (tables.length === 0) {
-    tables = $("table.sortable.rotable");
-  }
-
-  // Return empty array if still no tables found
-  if (tables.length === 0) {
-    console.log("NO");
+  // Select the third table (index 2)
+  const tables = $('table');
+  if (tables.length < 3) {
+    console.log("NO - Less than 3 tables found");
     return [];
   }
 
   const titles: string[] = [];
 
-  // Process all tables
-  tables.each((_, table) => {
-    $(table)
-      .find("tbody tr")
-      .each((_, row) => {
-        const dateCell = $(row).find("td:nth-child(5)");
-        const dateText = dateCell.text().trim();
+  // Process the third table only
+  const thirdTable = tables.eq(2);
+  
+  thirdTable
+    .find("tbody tr")
+    .each((_, row) => {
+      const cell = $(row).find("td:nth-child(2)");
+      const link = cell.find("a");
 
-        if (!dateText.includes("04/01")) {
-          const cell = $(row).find("td:nth-child(2)");
-          const link = cell.find("a");
-          const title =
-            link.length > 0 ? link.text().trim() : cell.text().trim();
+      if (link.length > 0) {
+        const title = link.text().trim();
 
-          if (title !== "") {
-            if (title == "^/7(L|?[_(L+#<>+&|^(o)") {
-              titles.push("Nyarlathotep");
-            } else {
-              titles.push(title);
-            }
+        if (title !== "") {
+          if (title == "^/7(L|?[_(L+#<>+&|^(o)") {
+            titles.push("Nyarlathotep");
+          } else {
+            titles.push(title);
           }
         }
-      });
-  });
+      }
+    });
 
   return titles;
 }
