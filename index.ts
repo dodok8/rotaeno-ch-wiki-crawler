@@ -8,7 +8,9 @@ import { write } from "bun";
 import * as semver from "semver";
 
 const songListHtml = await fetchWiki("曲目列表");
-const songList = parseSongList(songListHtml);
+const songList = [...parseSongList(songListHtml),
+  // 2.12.1
+  "Sakura rain", "ENERGY SYNERGY MATRIX", "ULTRA SYNERGY MATRIX", "QUATTUORUX", "Crossroads of the Brave", "May", "True"];
 
 console.log(songList.length);
 
@@ -19,7 +21,7 @@ for (const song of songList) {
   if (
     allSongs.findIndex((item) => {
       return item.title_localized.default === song;
-    }) !== -1
+    }) !== -1 || song === "Nyarlathotep"
   ) {
     console.log("continue");
   } else {
@@ -33,5 +35,6 @@ const sortedSongs = allSongs.sort((a, b) => {
   return semver.compare(a.releaseVersion, b.releaseVersion);
 });
 
+console.log(allSongs.length)
 await write("data/songs.json", JSON.stringify(sortedSongs, null, 2));
 console.log("All songs data has been saved to songs.json");

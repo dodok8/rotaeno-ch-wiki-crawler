@@ -11932,5 +11932,278 @@
         "jacketDesigner": ""
       }
     ]
+  },
+  {
+    "id": "sakura-rain",
+    "imageUrl": "/images/thumb/9/91/Songs_sakura-rain.png/256px-Songs_sakura-rain.png",
+    "artist": "Nanatsukaze",
+    "releaseVersion": "2.12.1",
+    "chapter": "基础歌曲",
+    "title_localized": {
+      "default": "Sakura rain"
+    },
+    "source_localized": {
+      "default": "Original"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 1,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 4,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 11.9,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "energy-synergy-matrix",
+    "imageUrl": "/images/thumb/f/f0/Songs_energy-synergy-matrix.png/256px-Songs_energy-synergy-matrix.png",
+    "artist": "Tanchiky",
+    "releaseVersion": "2.12.1",
+    "chapter": "Tanchiky 精选集",
+    "title_localized": {
+      "default": "ENERGY SYNERGY MATRIX"
+    },
+    "source_localized": {
+      "default": "BOFU2017"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 3,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 5,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 8.7,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.3,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "ultra-synergy-matrix",
+    "imageUrl": "/images/thumb/5/5c/Songs_ultra-synergy-matrix.png/256px-Songs_ultra-synergy-matrix.png",
+    "artist": "Tanchiky",
+    "releaseVersion": "2.12.1",
+    "chapter": "Tanchiky 精选集",
+    "title_localized": {
+      "default": "ULTRA SYNERGY MATRIX"
+    },
+    "source_localized": {
+      "default": "Original"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 4,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 8.7,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 11.3,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.5,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "quattuorux",
+    "imageUrl": "/images/thumb/a/a7/Songs_quattuorux.png/256px-Songs_quattuorux.png",
+    "artist": "打打だいず Vs. Tanchiky Vs. からめる",
+    "releaseVersion": "2.12.1",
+    "chapter": "Tanchiky 精选集",
+    "title_localized": {
+      "default": "QUATTUORUX"
+    },
+    "source_localized": {
+      "default": "Original"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 2,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 6,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 10.4,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.8,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "crossroads-of-the-brave",
+    "imageUrl": "/images/thumb/2/20/Songs_crossroads-of-the-brave.png/256px-Songs_crossroads-of-the-brave.png",
+    "artist": "Miyolophone vs Iris feat. Grace",
+    "releaseVersion": "2.12.1",
+    "chapter": "NOISZ SL + PK GODHAND 联动",
+    "title_localized": {
+      "default": "Crossroads of the Brave"
+    },
+    "source_localized": {
+      "default": "NOISZ STΔRLIVHT"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 3,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 6,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.5,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.5,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "may",
+    "imageUrl": "/images/thumb/e/eb/Songs_may.png/256px-Songs_may.png",
+    "artist": "ida",
+    "releaseVersion": "2.12.1",
+    "chapter": "NOISZ SL + PK GODHAND 联动",
+    "title_localized": {
+      "default": "May"
+    },
+    "source_localized": {
+      "default": "PROJEKT GODHAND"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 2,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 6,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 11.2,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.9,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "true",
+    "imageUrl": "/images/thumb/4/4f/Songs_true.png/256px-Songs_true.png",
+    "artist": "Synthion ft. STΔRLIVHT♠♥",
+    "releaseVersion": "2.12.1",
+    "chapter": "NOISZ SL + PK GODHAND 联动",
+    "title_localized": {
+      "default": "True"
+    },
+    "source_localized": {
+      "default": "NOISZ STΔRLIVHT"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 2,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 4,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.1,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.7,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
   }
 ]
