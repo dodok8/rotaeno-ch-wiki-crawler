@@ -23,9 +23,13 @@ export function parseSongList(html: string): string[] {
         const title = link.text().trim();
 
         if (title !== "") {
-          if (title == "^/7(L|?[_(L+#<>+&|^(o)") {
+          if (title === "^/7(L|?[_(L+#<>+&|^(o)") {
             titles.push("Nyarlathotep");
-          } else {
+          
+          }
+          else if (title === "oiiaioooooiai") {
+          }
+          else {
             titles.push(title);
           }
         }
