@@ -6474,6 +6474,20 @@
     ]
   },
   {
+    "id": "oiiaioooooiai",
+    "imageUrl": "/images/thumb/7/74/Songs_oiiaioooooiai.png/256px-Songs_oiiaioooooiai.png",
+    "artist": "黑瘦的鱼头\n",
+    "releaseVersion": "1.15.441\n",
+    "chapter": "-\n",
+    "title_localized": {
+      "default": "Oiiaioooooiai"
+    },
+    "source_localized": {
+      "default": "Original"
+    },
+    "charts": []
+  },
+  {
     "id": "apocalypse",
     "imageUrl": "/images/thumb/6/6b/Songs_apocalypse.png/256px-Songs_apocalypse.png",
     "artist": "Alice Schach and the Magic Orchestra",
@@ -12201,6 +12215,420 @@
       {
         "difficultyDecimal": 12.7,
         "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "beat-rise",
+    "imageUrl": "/images/thumb/0/00/Songs_beat-rise.png/256px-Songs_beat-rise.png",
+    "artist": "Makou",
+    "releaseVersion": "2.13.0",
+    "chapter": "无尽的暑假狂想曲",
+    "title_localized": {
+      "default": "Beat Rise"
+    },
+    "source_localized": {
+      "default": "Rotaeno Sound Collection"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 2,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 6,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.2,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.8,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "slide-down",
+    "imageUrl": "/images/thumb/8/8c/Songs_slide-down.png/256px-Songs_slide-down.png",
+    "artist": "Saltless",
+    "releaseVersion": "2.13.0",
+    "chapter": "基础歌曲",
+    "title_localized": {
+      "default": "Slide Down"
+    },
+    "source_localized": {
+      "default": "Rotaeno Sound Collection"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 3,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 6,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.1,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.4,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "mirror",
+    "imageUrl": "/images/thumb/2/2e/Songs_mirror.png/256px-Songs_mirror.png",
+    "artist": "peak divide & Rachel Lake",
+    "releaseVersion": "2.13.0",
+    "chapter": "基础歌曲",
+    "title_localized": {
+      "default": "Mirror"
+    },
+    "source_localized": {
+      "default": "UNBEATABLE"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 2,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 5,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.3,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.8,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "mendokusai-modo",
+    "imageUrl": "/images/thumb/a/a4/Songs_mendokusai-modo.png/256px-Songs_mendokusai-modo.png",
+    "artist": "Ponchi♪",
+    "releaseVersion": "2.13.0",
+    "chapter": "无尽的暑假狂想曲",
+    "title_localized": {
+      "default": "めんどくさいモード"
+    },
+    "source_localized": {
+      "default": "Rotaeno Sound Collection"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 4,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 8.3,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 11.7,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.4,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 14.3,
+        "difficultyLevel": "IV-α",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "rainy-day",
+    "imageUrl": "/images/thumb/8/87/Songs_rainy-day.png/256px-Songs_rainy-day.png",
+    "artist": "ag feat. 倉先",
+    "releaseVersion": "2.13.0",
+    "chapter": "无尽的暑假狂想曲",
+    "title_localized": {
+      "default": "Rainy Day"
+    },
+    "source_localized": {
+      "default": "Rotaeno Sound Collection"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 2,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 5,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 8.9,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.4,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "simulated",
+    "imageUrl": "/images/thumb/c/cd/Songs_simulated.png/256px-Songs_simulated.png",
+    "artist": "Neko Hacker",
+    "releaseVersion": "2.13.0",
+    "chapter": "星际之声",
+    "title_localized": {
+      "default": "Simulated feat. 澤村光彩 & Ichika Nito"
+    },
+    "source_localized": {
+      "default": "Original"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 2,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 6,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.3,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.4,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "summer-time-memory",
+    "imageUrl": "/images/thumb/a/af/Songs_summer-time-memory.png/256px-Songs_summer-time-memory.png",
+    "artist": "kanemiko",
+    "releaseVersion": "2.13.0",
+    "chapter": "无尽的暑假狂想曲",
+    "title_localized": {
+      "default": "Summer Time Memory"
+    },
+    "source_localized": {
+      "default": "Rotaeno Sound Collection"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 3,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 5,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 8.2,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.3,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.5,
+        "difficultyLevel": "IV-α",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "hushwave-symptoms",
+    "imageUrl": "/images/thumb/7/77/Songs_hushwave-symptoms.png/256px-Songs_hushwave-symptoms.png",
+    "artist": "ariiol",
+    "releaseVersion": "2.13.0",
+    "chapter": "无尽的暑假狂想曲",
+    "title_localized": {
+      "default": "缄色症候"
+    },
+    "source_localized": {
+      "default": "Rotaeno Sound Collection"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 3,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 5,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.1,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.2,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.1,
+        "difficultyLevel": "IV-α",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "vector",
+    "imageUrl": "/images/thumb/1/10/Songs_vector.png/256px-Songs_vector.png",
+    "artist": "WHITEFISTS",
+    "releaseVersion": "2.13.0",
+    "chapter": "星觅典藏",
+    "title_localized": {
+      "default": "VECTOЯ"
+    },
+    "source_localized": {
+      "default": "Original"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 3,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 6,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 9.7,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.4,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      }
+    ]
+  },
+  {
+    "id": "windsurfer",
+    "imageUrl": "/images/thumb/b/b3/Songs_windsurfer.png/256px-Songs_windsurfer.png",
+    "artist": "roər",
+    "releaseVersion": "2.13.0",
+    "chapter": "无尽的暑假狂想曲",
+    "title_localized": {
+      "default": "Windsurfer"
+    },
+    "source_localized": {
+      "default": "Rotaeno Sound Collection"
+    },
+    "charts": [
+      {
+        "difficultyDecimal": 3,
+        "difficultyLevel": "I",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 5,
+        "difficultyLevel": "II",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 8.8,
+        "difficultyLevel": "III",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 12.8,
+        "difficultyLevel": "IV",
+        "chartDesigner": "",
+        "jacketDesigner": ""
+      },
+      {
+        "difficultyDecimal": 13.8,
+        "difficultyLevel": "IV-α",
         "chartDesigner": "",
         "jacketDesigner": ""
       }

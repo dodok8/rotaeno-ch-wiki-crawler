@@ -8,9 +8,7 @@ import { write } from "bun";
 import * as semver from "semver";
 
 const songListHtml = await fetchWiki("曲目列表");
-const songList = [...parseSongList(songListHtml),
-  // 2.12.1
-  "Sakura rain", "ENERGY SYNERGY MATRIX", "ULTRA SYNERGY MATRIX", "QUATTUORUX", "Crossroads of the Brave", "May", "True"];
+const songList = parseSongList(songListHtml);
 
 console.log(songList.length);
 

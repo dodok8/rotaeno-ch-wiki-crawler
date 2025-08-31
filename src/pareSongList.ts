@@ -8,19 +8,12 @@ import * as cheerio from "cheerio";
 export function parseSongList(html: string): string[] {
   const $ = cheerio.load(html);
 
-  // Select the third table (index 2)
   const tables = $('table');
-  if (tables.length < 3) {
-    console.log("NO - Less than 3 tables found");
-    return [];
-  }
-
   const titles: string[] = [];
 
-  // Process the third table only
-  const thirdTable = tables.eq(2);
+  const secondTable = tables.eq(1);
   
-  thirdTable
+  secondTable
     .find("tbody tr")
     .each((_, row) => {
       const cell = $(row).find("td:nth-child(2)");
